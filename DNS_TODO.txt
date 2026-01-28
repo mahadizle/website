@@ -1,0 +1,15 @@
+DNS setup (paused)
+
+Pending Cloudflare DNS records:
+- CNAME @ -> technoplusfoundation.pages.dev (Proxied)
+- CNAME www -> technoplusfoundation.pages.dev (Proxied)
+
+Pending Google Workspace (Gmail) email records:
+- MX 1 ASPMX.L.GOOGLE.COM
+- MX 5 ALT1.ASPMX.L.GOOGLE.COM
+- MX 5 ALT2.ASPMX.L.GOOGLE.COM
+- MX 10 ALT3.ASPMX.L.GOOGLE.COM
+- MX 10 ALT4.ASPMX.L.GOOGLE.COM
+- TXT @ "v=spf1 include:_spf.google.com ~all"
+- TXT _dmarc "v=DMARC1; p=none; rua=mailto:info@technoplusfoundation.com"
+- DKIM TXT record from Google Admin (to be generated)
